@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+border:hover {
+  transition: background-color 0.3s, color 0.3s;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  /* padding: 0 40px; */
+}
+#nav_part1 i {
+  margin-right: 4px;
+}
+#nav_part1 {
+  height: 100px;
+  width: 100%;
+  text-transform: capitalize;
+  /* background-color: black; */
+  padding: 0 14px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  justify-content: space-between;
+  /* background-color: yellow; */
+}
+#nav_part2 h5 {
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+#nav_part2 {
+  display: flex;
+  text-transform: capitalize;
+  width: 65%;
+  /* background-color: gray; */
+  align-items: center;
+  justify-content: space-between;
+}
+#nav_part1 h1 {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+#nav_part2 img {
+  height: 46px;
+}
+.content {
+  height: calc(100% - 100px);
+  width: 100%;
+  display: flex;
+  /* background-color: aqua; */
+  justify-content: space-between;
+  position: relative;
+}
+
+#left {
+  width: 36%;
+  height: 100%;
+  padding: 100px 80px;
+  /* background-color: red; */
+}
+
+#center {
+  width: 26%;
+  height: 100%;
+  /* background-color: red; */
+  padding-top: 50px;
+}
+#right {
+  width: 36%;
+  height: 100%;
+  padding: 100px 80px;
+  /* background-color: red; */
+}
+#left h1 {
+  font-size: 39px;
+  line-height: 39px;
+  text-transform: capitalize;
+  margin-bottom: 1.2rem;
+}
+#left span {
+  color: red;
+}
+#left p {
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+#left button {
+  padding: 13px 27px;
+  background-color: red;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+#left button i {
+  margin-right: 2px;
+}
+#icon {
+  position: relative;
+  display: inline-block;
+  /* margin-right: 2px; */
+}
+
+button {
+  padding-right: 40px;
+}
+
+#heart {
+  position: absolute;
+  top: 40%;
+  right: -30px;
+  margin-left: 50px;
+  /* right: 5px; Adjust the right position as needed */
+  transform: translateY(-40%);
+}
+
+.center_bg {
+  height: 80%;
+  width: 100%;
+  background-color: blue;
+  border-top-left-radius: 1000px;
+  border-top-right-radius: 1000px;
+  background-image: url(coca-cola-led-signage.jpg);
+  background-size: 400%;
+  background-position: 30% 40%;
+  filter: blur(2px);
+}
+.content > img {
+  position: absolute;
+  height: 100%;
+  left: 50%;
+  transform: translate(-51%, 0);
+}
+#right-ele {
+  /* background-color: red; */
+  width: 250px;
+  opacity: 0.6;
+}
+#elem {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: blue; */
+  border-bottom: 1px solid #fff;
+}
+#elem2 {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: blue; */
+  border-bottom: 1px solid #fff;
+}
+#elem h1 {
+  font-size: 24px;
+  font-weight: 500;
+}
+#elem i {
+  font-size: 24px;
+  /* font-weight: 500; */
+}
+#elem2 h1 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  padding-top: 15px;
+}
+#elem2 i {
+  font-size: 24px;
+  /* font-weight: 500; */
+}
+#elem3 h1 {
+  margin-top: 2px;
+  font-size: 24px;
+  font-weight: 500;
+}
+#elem3 p {
+  font-size: 10px;
+  height: 40px;
+  width: 70%;
+}

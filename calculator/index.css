@@ -1,0 +1,68 @@
+body {
+  background-color: #bccef8;
+  /* background-image: url(".vscode/bgcalc1.webp"); */
+  background-size: cover;
+}
+.container {
+  border-top-right-radius: white 2px solid;
+  justify-content: space-evenly;
+  margin-left: 660px;
+  align-items: center;
+}
+
+.container {
+  background-color: black;
+  max-width: 300px;
+  margin: 10vh 60% 120px auto;
+  box-shadow: 0px 0px 47px 17px #474e68;
+  border-radius: 5%;
+}
+
+#display {
+  color: white;
+  text-align: right;
+  height: 180px;
+  line-height: 70px;
+  padding: 16px 8px;
+  font-size: 50px;
+}
+
+.buttons {
+  display: grid;
+  border-bottom: 1px solid #999;
+  border-left: 1px solid #999;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+  margin-bottom: 20px;
+}
+
+.buttons > div {
+  border-top: 1px solid #999;
+  border-right: 1px solid #999;
+}
+
+.button {
+  border: 1px solid #34b3f1;
+  line-height: 50px;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+  color: #c4ddff;
+  font-size: 2rem;
+  border-radius: 10px;
+  margin: 10px 10px 10px 10px;
+}
+
+#equal {
+  background-color: #42c2ff;
+  color: 8D9EFF;
+}
+
+.special {
+  background-color: #34b3f1;
+}
+
+.button:hover {
+  background-color: #5cb8e4;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
